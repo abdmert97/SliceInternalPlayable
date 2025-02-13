@@ -131,7 +131,7 @@ var emptySliced = Gamemanager.Instance.sliceObject;
             CurrencyManager.money += reward;
             var text = Instantiate(currencyText);
             text.Activate(transform.position+Vector3.up*1 + Vector3.right*1.5f,reward);
-       
+            Gamemanager.Instance.audioController.PlaySlice();
         DOVirtual.DelayedCall(0.15f, () =>
         {
             isSliced = false;
@@ -174,6 +174,10 @@ var emptySliced = Gamemanager.Instance.sliceObject;
         { 
             trapMovement = other.GetComponent<TrapMovement>();
             var speed =trapMovement.speedMult;
+            if (trapMovement.CanCut() == false)
+            {
+                return;
+            }
             DOVirtual.DelayedCall(Mathf.Max(0.1f,0.35f- speed/1000), () =>
             {
                 Slice(other.transform.position, other.gameObject.GetInstanceID());

@@ -19,8 +19,8 @@ public class ObjectSpawner : MonoBehaviour
     {
         if (arg1 == UpgradeType.Fish)
         {
-            spawnDuration *= 0.9f;
-            speed *= 1.1f;
+            spawnDuration *= 0.8f;
+            speed *= 1.2f;
         }
     }
 

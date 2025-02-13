@@ -184,8 +184,8 @@
             },
             {
                 "name": "reflection",
-                "excluded": false,
-                "forceIncluded": true
+                "excluded": true,
+                "forceIncluded": false
             },
             {
                 "name": "prefabs",
@@ -1477,18 +1477,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEditor.Animations.AnimatorControllerLayer",
-                "excluded": true
-            },
-            {
-                "name": "UnityEditor.Animations.AnimatorState",
-                "excluded": true
-            },
-            {
-                "name": "UnityEditor.Animations.AnimatorStateMachine",
-                "excluded": true
-            },
-            {
                 "name": "UnityEditor.Animations.AnimatorTransitionBase",
                 "excluded": true
             },
@@ -1509,27 +1497,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.Animator.MotionSet",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Animator.ParameterState",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.AnimatorClipInfo",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimatorControllerParameter",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Animators.StateMachine",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimatorStateInfo",
                 "excluded": true
             },
             {
@@ -2005,10 +1973,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.RuntimeAnimatorController",
-                "excluded": true
-            },
-            {
                 "name": "UnityEditor.Animations.AnimatorStateTransition",
                 "excluded": true
             },
@@ -2017,15 +1981,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.Motion",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.Audio.AudioMixer",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimatorStateInfo.NoStateInfo",
                 "excluded": true
             },
             {
@@ -2177,10 +2133,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEditor.Animations.AnimatorController",
-                "excluded": true
-            },
-            {
                 "name": "UnityEditor.Animations.BlendTree",
                 "excluded": true
             },
@@ -2190,10 +2142,6 @@
             },
             {
                 "name": "UnityEngine.Analytics.Analytics",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimationClip",
                 "excluded": true
             },
             {
@@ -2378,10 +2326,6 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Components.TargetJoint2D",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Animator",
                 "excluded": true
             },
             {
@@ -2774,7 +2718,7 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorControllerLayer",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorControllerParameter",
@@ -2782,11 +2726,11 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorState",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorStateMachine",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorTransitionBase",
@@ -2798,7 +2742,7 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.UnsupportedAnimatorFeatures",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animations.BlendTreeType",
@@ -4038,7 +3982,7 @@
             },
             {
                 "name": "UnityEngine.FontStyle",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.ForceMode",
@@ -4094,7 +4038,7 @@
             },
             {
                 "name": "UnityEngine.HorizontalWrapMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.HumanBodyBones",
@@ -5258,7 +5202,7 @@
             },
             {
                 "name": "UnityEngine.TextAnchor",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.TextClipping",
@@ -5794,7 +5738,7 @@
             },
             {
                 "name": "UnityEngine.VerticalWrapMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.VFX.VFXCameraBufferTypes",
@@ -6110,7 +6054,7 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorController",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Animation.Mecanim.AnimatorOverrideController",
@@ -6394,10 +6338,6 @@
             },
             {
                 "name": "UnityEngine.UI.Dropdown.OptionDataList",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.FontData",
                 "excluded": true
             },
             {
@@ -16348,7 +16288,7 @@
                     },
                     {
                         "name": "timeScale#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "smoothDeltaTime#get",
@@ -17868,7 +17808,7 @@
                     },
                     {
                         "name": "localEulerAngles#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localEulerAngles#set",
@@ -20468,7 +20408,7 @@
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnCanvasChanged",
@@ -20538,7 +20478,7 @@
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnTransformParentChanged",
@@ -20748,7 +20688,7 @@
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ConfigureForEntity",
@@ -20996,7 +20936,7 @@
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -21004,11 +20944,11 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ConfigureForEntity",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Awake",
@@ -21814,6 +21754,10 @@
                     },
                     {
                         "name": "PlayParticle",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CanCut",
                         "excluded": false
                     }
                 ]
@@ -24248,7 +24192,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTexture",
@@ -26432,7 +26376,7 @@
                     },
                     {
                         "name": "UnRegisterCanvasElementForRebuild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsRebuildingLayout",
@@ -32145,6 +32089,26 @@
                     {
                         "name": "Awake",
                         "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CheckFinish",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EndGame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InstallGame",
+                        "excluded": true
                     }
                 ]
             },
@@ -32637,6 +32601,1276 @@
                     {
                         "name": "UpdateSDFScale",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Motion",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SetParameters",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetSamplers",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimationClip",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "empty#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "frameRate#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "frameRate#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasGenericRootTransform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasGenericRootTransform#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionFloatCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionFloatCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasRootCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasRootCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "humanMotion#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "humanMotion#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "legacy#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "legacy#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddEvent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetCurve",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddMemberNotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnsureQuaternionContinuity",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClearCurves",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SampleAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PullOrphanEvents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sample",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLastTimingAmongEvents",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEditor.Animations.AnimatorControllerLayer",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "isAdditive#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "iKPass#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "iKPass#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetState",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEditor.Animations.AnimatorState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEditor.Animations.AnimatorStateMachine",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Resolve",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Animator.MotionSet",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Animator.ParameterState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimatorControllerParameter",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Animators.StateMachine",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetupStateMachine",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SwitchToState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TriggerAnimationEvents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateStateParameters",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckForTransitionsToPlay",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddTimeToStates",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateAnyTransition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateStateTransition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateEffectiveState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckForTransitionsToSchedule",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimatorStateInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "State#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "shortNameHash#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SpeedValue#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateFromParameters",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ValidateParameters",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsName",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnStateEnter",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnStateUpdate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnStateExit",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.RuntimeAnimatorController",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetState$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMotion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBehaviour",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBehaviours",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SendNotification",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimatorStateInfo.NoStateInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "shortNameHash#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsName",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEditor.Animations.AnimatorController",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetState$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMotion",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetBehaviour",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBehaviours",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Animator",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StringToHash",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HashToString",
+                        "excluded": true
+                    },
+                    {
+                        "name": "NoticeNameHash",
+                        "excluded": false
+                    },
+                    {
+                        "name": "isHuman#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasRootMotion#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "avatar#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "avatar#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "speed#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "speed#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "animatorController#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "animatorController#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "angularVelocity#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bodyPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bodyRotation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "deltaPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "deltaRotation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "gravityWeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "pivotPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "pivotWeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "targetPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "targetRotation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "velocity#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layerCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isInitialized#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "runtimeAnimatorController#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "runtimeAnimatorController#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasBoundPlayables#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "avatarRoot#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "cullingMode#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "cullingMode#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "feetPivotActive#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "feetPivotActive#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fireEvents#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fireEvents#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "humanScale#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isMatchingTarget#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isOptimizable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "keepAnimatorStateOnDisable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "keepAnimatorStateOnDisable#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layersAffectMassCenter#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layersAffectMassCenter#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "leftFeetBottomHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rightFeetBottomHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "parameterCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "parameters#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "playableGraph#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "playbackTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "playbackTime#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderMode#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderMode#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderStartTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderStartTime#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderStopTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "recorderStopTime#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rootPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rootPosition#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rootRotation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rootRotation#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "stabilizeFeet#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "stabilizeFeet#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "writeDefaultValuesOnDisable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "writeDefaultValuesOnDisable#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetTrigger$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetTrigger",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetTrigger$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetTrigger",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFloat$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFloat",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFloat$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetAnimatorTransitionInfo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetFloat$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetFloat",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetInteger$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetInteger",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetBool$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetBool",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBool$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBool",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentAnimatorStateInfo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayerWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLayerWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLayerName",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLayerIndex",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ApplyLayerMixing",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWeightFor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDestroy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TriggerEvents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateAnimatorController",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnStateChanged",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnMaskChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Play$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Play$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Play",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Play$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Play$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Rebind",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopPlayback",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBehaviour",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBehaviours",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentAnimatorClipInfo$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentAnimatorClipInfo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentAnimatorClipInfoInternal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsInTransition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetNextAnimatorStateInfo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetNextAnimatorClipInfoCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetNextAnimatorClipInfo",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentAnimatorClipInfoCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetBoneTransform",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SyncLayers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateSyncDuration",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SampleMecanim",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CreateWASMSampler",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SyncAnimationSet",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ApplyOnAnimationMove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ApplyBuiltinRootMotion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ApplyBuiltinRootMotionInternal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckMecanimFeatureCompatibility",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HasFlag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LogUnsupportedMessage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$6",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$7",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFade",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$6",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$7",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CrossFadeInFixedTime$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKHintPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKHintPositionWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKPositionWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetIKRotationWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetParameter",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HasState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InterruptMatchTarget",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsParameterControlledByCurve$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsParameterControlledByCurve",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchTarget$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchTarget",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchTarget$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchTarget$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayInFixedTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetBoneLocalRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKHintPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKHintPositionWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKPositionWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetIKRotationWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtWeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtWeight$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtWeight$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtWeight$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLookAtWeight$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetTarget",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartPlayback",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartRecording",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopRecording",
+                        "excluded": true
+                    },
+                    {
+                        "name": "WriteDefaultValues",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.FontData",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "defaultFontData#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "font#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "font#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontSize#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontStyle#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontStyle#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bestFit#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bestFit#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minSize#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "maxSize#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "maxSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignByGeometry#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignByGeometry#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "richText#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "richText#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "horizontalOverflow#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "horizontalOverflow#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "verticalOverflow#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "verticalOverflow#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lineSpacing#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lineSpacing#set",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UIManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ActivateEndPanel",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopTutorial",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "SplashParticleRenderer",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayParticle",
+                        "excluded": true
                     }
                 ]
             }

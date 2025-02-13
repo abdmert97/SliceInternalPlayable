@@ -29,6 +29,7 @@ public class UpgradeButton : MonoBehaviour
       upgradeIndex++;
       UpdateUI();
       OnUpgrade?.Invoke(upgradeType, upgradeIndex);
+      Gamemanager.Instance.audioController.PlayClick();
    }
 
    private void UpdateUI()
