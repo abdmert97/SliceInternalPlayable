@@ -1,0 +1,53 @@
+{
+  "ignores": [
+    "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
+    "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+  ],
+  "groups": [
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/ObjectSpawner.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/SliceObject.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/SliceObjectChildren.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/TrapMovement.cs"
+    ],
+    [
+      "C:/Users/abdur/OneDrive/Masa\u00FCst\u00FC/luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/abdur/OneDrive/Masa\u00FCst\u00FC/luna/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/abdur/OneDrive/Masa\u00FCst\u00FC/luna/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

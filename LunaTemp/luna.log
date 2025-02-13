@@ -1,0 +1,177 @@
+report@config:load 31.98
+Authorized using stored user info.
+report@account:authorize 8.08
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity..........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 7089.42
+report@config:load 15.72
+Resources:
+{}
+report@assets:stage2 2572.82
+report@assets:stage3 270.24
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.31
+report@config:load 41.58
+report@config:unity 0.18
+report@code:compose 96.34
+Authorized using stored user info.
+report@account:authorize 3.86
+.NET Framework için MSBuild sürüm 17.12.12+1cce77968
+
+Oluşturma başlatıldı: 12.02.2025 18:29:00.
+
+
+
+1 düğümünde "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" projesi (Rebuild hedef).
+
+CoreClean:
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" dosyası siliniyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" dosyası siliniyor.
+
+GenerateTargetFrameworkMonikerAttribute:
+Tüm çıkış dosyaları, giriş dosyalarına göre güncel durumda olduğundan "GenerateTargetFrameworkMonikerAttribute" hedefi atlanıyor.
+
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_34 /highentropyva+ /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\ObjectSpawner.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Asse
+ts\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\SliceObject.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\SliceObjectChildren.cs D:\UnityProject\SliceMasterLuna-MultiObject\LunaTemp\stage3\processed-scripts\Assets\TrapMovement.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  CompilerServer: server - server processed compilation - Scripts
+
+_CopyFilesMarkedCopyLocal:
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll" konumuna kopyalanıyor.
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml" konumuna kopyalanıyor.
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml" konumuna kopyalanıyor.
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml" konumuna kopyalanıyor.
+
+  "AlwaysCreate" belirtildiği için "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" oluşturuluyor.
+
+  "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" öğesine erişiliyor.
+
+CopyFilesToOutputDirectory:
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll" konumuna kopyalanıyor.
+
+  Scripts -> C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Dosya "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" konumundan "C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb" konumuna kopyalanıyor.
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+"C:\Users\abdur\OneDrive\Masaüstü\luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" Projesini Oluşturma İşlemi Tamamlandı (Rebuild hedef).
+
+
+Oluşturma başarılı oldu.
+    0 Uyarı
+
+    0 Hata
+
+Geçen Süre 00:00:07.14
+
+Source code compiled successfully!
+﻿
+[ error ] $﻿
+Diagnostics gathered successfully
+report@code:build 13235.95
+report@diagnostics:verify 0.42
+report@diagnostics:upload 1436.43
+report@code:stage 11396.38
+[ Stage3 ] Code compiled and bundled successfully.
+report@code:bundle 26214.31
+report@package:stage 796.38
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.16
