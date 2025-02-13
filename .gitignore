@@ -9,7 +9,8 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+/LunaTemp/
+/LunaTemp\
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -121,3 +122,4 @@ Assets/Dreamteck/Splines/PlaymakerActions.unitypackage.meta
 Assets/Dreamteck/Splines/TMPro.unitypackage.meta
 .vsconfig
 Assets/JMO Assets/Cartoon FX FREE (old legacy effects).unitypackage.meta
+LunaTemp/stage1/assets/meshes/23620.json

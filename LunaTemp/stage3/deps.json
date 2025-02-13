@@ -7,7 +7,16 @@
   ],
   "groups": [
     [
-      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/ObjectSpawner.cs"
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/CurrencyDisplayer.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/CurrencyManager.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/SliceObject.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Gamemanager.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/ObjectSpawner.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/UpgradeButton.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/TrapController.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/TrapMovement.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/Game/Pool/CurrencyText.cs",
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/BoundCalculator.cs"
     ],
     [
       "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
@@ -34,11 +43,13 @@
       "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
     ],
     [
-      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/SliceObject.cs",
-      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/SliceObjectChildren.cs"
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/ButtonAnimator.cs"
     ],
     [
-      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/TrapMovement.cs"
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/ObjectDestroyer.cs"
+    ],
+    [
+      "D:/UnityProject/SliceMasterLuna-MultiObject/LunaTemp/stage3/processed-scripts/Assets/Scripts/SliceObjectChildren.cs"
     ],
     [
       "C:/Users/abdur/OneDrive/Masa\u00FCst\u00FC/luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
