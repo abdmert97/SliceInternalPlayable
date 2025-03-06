@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using Game.Pool;
 using Sirenix.OdinInspector;
-
+using UI.Widgets;
 using UnityEngine;
 
 public class SliceObject : MonoBehaviour
@@ -14,7 +14,7 @@ public class SliceObject : MonoBehaviour
    public float moveSpeed = 10f;
    public BoxCollider collider;
    public Rigidbody rigidBody;
- 
+   public float delayOffset;
    public CurrencyText currencyText;
    private bool isSliced;
     
@@ -129,6 +129,7 @@ var emptySliced = Gamemanager.Instance.sliceObject;
             newParent.rigidBody.AddForce(Vector3.up * yForce* GetRandom()*0.6f, ForceMode.Impulse);
             trapMovement.PlayParticle();
             CurrencyManager.money += reward;
+            StageProgressBar.IncreaseBar.Invoke(reward);
             var text = Instantiate(currencyText);
             text.Activate(transform.position+Vector3.up*1 + Vector3.right*1.5f,reward);
             Gamemanager.Instance.audioController.PlaySlice();
@@ -178,7 +179,7 @@ var emptySliced = Gamemanager.Instance.sliceObject;
             {
                 return;
             }
-            DOVirtual.DelayedCall(Mathf.Max(0.1f,0.35f- speed/1000), () =>
+            DOVirtual.DelayedCall(Mathf.Max(0.1f,0.35f+delayOffset- speed/1000), () =>
             {
                 Slice(other.transform.position, other.gameObject.GetInstanceID());
               

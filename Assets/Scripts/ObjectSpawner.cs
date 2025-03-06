@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
-    public SliceObject prefab;
+    public List<SliceObject> prefab;
     public float spawnDuration = 1;
-    public static float speed = 4;
+    public static float speed = 5;
     private float _time = 0f;
     private void Awake()
     {
@@ -20,7 +20,7 @@ public class ObjectSpawner : MonoBehaviour
         if (arg1 == UpgradeType.Fish)
         {
             spawnDuration *= 0.8f;
-            speed *= 1.2f;
+            speed *= 1.15f;
         }
     }
 
@@ -40,7 +40,8 @@ public class ObjectSpawner : MonoBehaviour
 
     public void spawnObject()
     {
-       var spawned = Instantiate(prefab, transform.position, Quaternion.Euler(0,180,0));
+        var spawn = prefab[UnityEngine.Random.Range(0, prefab.Count)];
+       var spawned = Instantiate(spawn, transform.position, Quaternion.Euler(0,180,0));
       
     }
 }

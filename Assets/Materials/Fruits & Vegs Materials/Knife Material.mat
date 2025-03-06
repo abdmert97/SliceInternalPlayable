@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Knife Material
-  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: aa7776991f19cf647b53344c5f235b83, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -82,6 +82,7 @@ Material:
     - _RampThreshold: 0.35
     - _RimMax: 1
     - _RimMin: 0.146
+    - _Shininess: 38.9
     - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0
     - _SpecSmooth: 1
@@ -102,4 +103,5 @@ Material:
     - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
     - _SColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 0.66666657, g: 0.66666657, b: 0.66666657, a: 1}
   m_BuildTextureStacks: []

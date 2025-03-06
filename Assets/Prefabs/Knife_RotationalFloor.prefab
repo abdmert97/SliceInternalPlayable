@@ -315,6 +315,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 449426, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 449426, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 455872, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455872, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.97
+      objectReference: {fileID: 0}
     - target: {fileID: 19804094, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -441,11 +457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19886732, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19886732, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19886732, guid: 57b3d3f50fe92604e82c0d16442185f8, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key1.r
