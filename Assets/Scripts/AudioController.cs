@@ -7,10 +7,10 @@ public class AudioController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip slice;
     public AudioClip click;
-
+    public AudioSource clickAudioSource;
     public void PlayClick()
     {
-        audioSource.PlayOneShot(click);
+        clickAudioSource.Play();
     }
     public void PlaySlice()
     {
